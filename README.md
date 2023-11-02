@@ -1,70 +1,47 @@
-# Getting Started with Create React App
+# 카카오톡 나에게 메시지 보내기
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 🖥️ 프로젝트 소개
 
-## Available Scripts
+<img src="https://github.com/Cho-heejung/Send-Message/assets/66050038/9b9fcacd-2625-40cd-8e1d-54f6c04952d6" width="500">
 
-In the project directory, you can run:
+- 프로젝트 명 : 카카오톡 나에게 메시지 보내기
+- 개발 기간 : 2023.10.28 ~ 2023.10.29
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## ▶️ 실행 방법
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+```git
+git clone https://github.com/Cho-heejung/Send-Message.git
+/Send-Message> npm install
+/Send-Message/src> node server.js
+/Send-Message> npm start
+```
 
-### `npm test`
+## 📌 주요 기능
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### ✉️ 메시지 보내기
+[Kakao Developers](https://developers.kakao.com/) 의 [나에게 메시지 보내기 REST API](https://developers.kakao.com/docs/latest/ko/message/rest-api#default-template-msg-me)를 활용해 node.js 환경에서 나에게 "안녕하세요!"를 보내본다. 
 
-### `npm run build`
+<img src="https://github.com/Cho-heejung/Send-Message/assets/66050038/b4fe6125-d290-4af4-bf97-4113acf9a77c" width="300" height="300">
+<img src="https://github.com/Cho-heejung/Send-Message/assets/66050038/8d52441e-ff34-46ba-b7ff-def85729277a" width="300" height="300">
+<img src="https://github.com/Cho-heejung/Send-Message/assets/66050038/9b9fcacd-2625-40cd-8e1d-54f6c04952d6" width="300">
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<br>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 📚 사용 라이브러리
+- styled-components
+- axios
+- react-router-dom
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<br>
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 개발 환경
+<img  src="https://img.shields.io/badge/visual studio code-007ACC?style=for-the-badge&logo=visual studio code&logoColor=white">
+<img  src="https://img.shields.io/badge/git-F05032?style=for-the-badge&logo=git&logoColor=white">
+<img  src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white">
+<img  src="https://img.shields.io/badge/discord-5865F2?style=for-the-badge&logo=discord&logoColor=white">
+<br>
+<img  src="https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white">
+<img  src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white">
+<img  src="https://img.shields.io/badge/node.js-339933?style=for-the-badge&logo=node.js&logoColor=white">
+<img  src="https://img.shields.io/badge/react-61DAFB?style=for-the-badge&logo=react&logoColor=white">
